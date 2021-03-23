@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1616465592 source:c:\users\pasqualinotto\desktop\exercício\src\triangulo.cpp
+	"triangulo.hpp"
+
+1616470861 c:\users\pasqualinotto\desktop\exercício\include\triangulo.hpp
+
+1616471387 source:c:\users\pasqualinotto\desktop\exercício\src\retangulo.cpp
+	"retangulo.hpp"
+
+1616471387 c:\users\pasqualinotto\desktop\exercício\include\retangulo.hpp
+
+1616474824 source:c:\users\pasqualinotto\desktop\exercício\main.cpp
+	"retangulo.hpp"
+	"circulo.hpp"
+	"trapezio.hpp"
+	<iostream>
+	<locale.h>
+
+1616471444 source:c:\users\pasqualinotto\desktop\exercício\src\circulo.cpp
+	"circulo.hpp"
+
+1616471387 c:\users\pasqualinotto\desktop\exercício\include\circulo.hpp
+
+1616474785 source:c:\users\pasqualinotto\desktop\exercício\src\trapezio.cpp
+	"trapezio.hpp"
+
+1616474594 c:\users\pasqualinotto\desktop\exercício\include\trapezio.hpp
+
