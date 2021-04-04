@@ -9,8 +9,20 @@ void Triangulo::setLado(float l) {
     this->lado = l;
 }
 
+void Triangulo::setAltura(float h) {
+    this->altura = h;
+}
+
+void Triangulo::setAlturaPBQ(float hp) {
+    this->alturaPBQ = hp;
+}
+
 float Triangulo::getLado() {
     return this->lado;
+}
+
+float Triangulo::getAltura() {
+    return this->altura;
 }
 
 float Triangulo::calculaAltura() {
@@ -23,6 +35,14 @@ float Triangulo::calculaPerimetro() {
 
 float Triangulo::calculaArea() {
     return ((pow(this->lado, 2) * sqrt(3)) / 4);
+}
+
+float Triangulo::getAlturaPBQ() {
+    return this->alturaPBQ;
+}
+
+float Triangulo::calculaArea2() {
+    return ((this->lado * this->altura) / 2);
 }
 
 Triangulo::~Triangulo()

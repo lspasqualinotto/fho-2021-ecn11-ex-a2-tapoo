@@ -1,32 +1,33 @@
 # depslib dependency file v1.0
-1617510006 source:c:\users\pasqualinotto\desktop\exercício\src\triangulo.cpp
+1617560108 source:c:\users\pasqualinotto\desktop\exercício\src\triangulo.cpp
 	"triangulo.hpp"
 	"math.h"
 
-1617509956 c:\users\pasqualinotto\desktop\exercício\include\triangulo.hpp
+1617560186 c:\users\pasqualinotto\desktop\exercício\include\triangulo.hpp
 
 1617513034 source:c:\users\pasqualinotto\desktop\exercício\src\retangulo.cpp
 	"retangulo.hpp"
 	"math.h"
 
-1617513009 c:\users\pasqualinotto\desktop\exercício\include\retangulo.hpp
+1617553293 c:\users\pasqualinotto\desktop\exercício\include\retangulo.hpp
 
-1617512267 source:c:\users\pasqualinotto\desktop\exercício\main.cpp
+1617562276 source:c:\users\pasqualinotto\desktop\exercício\main.cpp
 	"retangulo.hpp"
 	"circulo.hpp"
 	"triangulo.hpp"
 	"trapezio.hpp"
 	<iostream>
 	<locale.h>
+	<math.h>
 
-1617511528 source:c:\users\pasqualinotto\desktop\exercício\src\circulo.cpp
+1617555447 source:c:\users\pasqualinotto\desktop\exercício\src\circulo.cpp
 	"circulo.hpp"
 	"math.h"
 
-1617511510 c:\users\pasqualinotto\desktop\exercício\include\circulo.hpp
+1617555679 c:\users\pasqualinotto\desktop\exercício\include\circulo.hpp
 
 1616474785 source:c:\users\pasqualinotto\desktop\exercício\src\trapezio.cpp
 	"trapezio.hpp"
 
-1616474970 c:\users\pasqualinotto\desktop\exercício\include\trapezio.hpp
+1617553293 c:\users\pasqualinotto\desktop\exercício\include\trapezio.hpp
 
