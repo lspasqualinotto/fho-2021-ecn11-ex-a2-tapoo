@@ -8,14 +8,31 @@ Inicialmente, a pretenção é criar as seguintes figuras:
 
 - 2D:
   • Retângulo;
-  • Triângulo;
   • Circulo;
+  • Triângulo Equilátero;
   • Trapézio.
 
 - 3D:
   • Paralelepípedo;
-  • Pirâmide de base quadrada;
   • Esfera;
-  • Cone.
+  • Cone;
+  • Pirâmide de Base Quadrada.
 
-O conteúdo deste trabalho pode ser alterado até a data de entrega, dia 29 de março de 2021.
+Desenvolvimento:
+1. Criação de um menu inicial na função principal;
+2. Definição de classes e heranças para as geometrias 2D;
+3. Implementação das geometrias 2D e testes;
+4. Atualização das classes e heranças para comportarem geometrias 3D. Aqui, resolvi adicionar as geometrias 3D onde observei o melhor encaixe:
+  - Paralelepípedo: Composto por retângulos;
+  - Esfera e Cone: Compostos necessariamente por uma geometria contendo raio;
+  - Pirâmide de Base Quadrada: Composta em sua grande maioria por triângulos.
+5. Implementação das geometrias 3D e testes;
+6. Atualização do menu inicial;
+7. Adição de comentários no código;
+8. Revisão geral.
+
+A classe e a herança do trapézio foram os únicos arquivos exclusivos para uma única geometria.
+
+Foi necessário mesclar as classes e as heranças de retângulo e círculo dentro da função principal para o cálculo da pirâmide de base quadrada a fim de evitar a criação de uma nova classe e uma nova herança.
+
+O conteúdo deste trabalho pode ser alterado até a data de entrega, dia 05 de abril de 2021, às 19:00.
