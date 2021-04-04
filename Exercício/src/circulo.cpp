@@ -1,4 +1,5 @@
 #include "circulo.hpp"
+#include "math.h"
 
 Circulo::Circulo()
 {
@@ -13,12 +14,20 @@ float Circulo::getRaio() {
     return this->raio;
 }
 
-double Circulo::calculaComprimento() {
+float Circulo::calculaComprimento() {
     return (2 * 3.14159 * this->raio);
 }
 
-double Circulo::calculaArea() {
-    return (3.14159 * this->raio * this->raio);
+float Circulo::calculaArea() {
+    return (3.14159 * pow(this->raio, 2));
+}
+
+float Circulo::calculaAreaE() {
+    return (4 * 3.14159 * pow(this->raio, 2));
+}
+
+float Circulo::calculaVolumeE() {
+    return ((4 * 3.14159 * pow(this->raio, 3)) / 3);
 }
 
 Circulo::~Circulo()

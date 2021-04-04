@@ -4,16 +4,15 @@
 class Triangulo {
     public:
         Triangulo();
-        void setBase(float b);
-        void setAltura(float h);
-        float getBase();
-        float getAltura();
+        void setLado(float l);
+        float getLado();
+        float calculaAltura();
+        float calculaPerimetro();
         float calculaArea();
         virtual ~Triangulo();
 
     private:
-        float base;
-        float altura;
+        float lado;
 };
 
 #endif // TRIANGULO_HPP

@@ -1,25 +1,29 @@
 #include "triangulo.hpp"
+#include "math.h"
 
 Triangulo::Triangulo() {
-    this->base = 0;
-    this->altura = 0;
+    this->lado = 0;
 }
 
-void Triangulo::setBase(float b) {
-    this->base = b;
+void Triangulo::setLado(float l) {
+    this->lado = l;
 }
 
-void Triangulo::setAltura(float h) {
-    this->altura = h;
+float Triangulo::getLado() {
+    return this->lado;
 }
 
-float Triangulo::getBase() {
-    return this->base;
+float Triangulo::calculaAltura() {
+    return ((this->lado / 2) * sqrt(3));
 }
 
-float Triangulo::getAltura() {
-    return this->altura;}
+float Triangulo::calculaPerimetro() {
+    return (3 * this->lado);
+}
 
+float Triangulo::calculaArea() {
+    return ((pow(this->lado, 2) * sqrt(3)) / 4);
+}
 
 Triangulo::~Triangulo()
 {

@@ -6,8 +6,10 @@ class Circulo {
         Circulo();
         void setRaio(float r);
         float getRaio();
-        double calculaComprimento();
-        double calculaArea();
+        float calculaComprimento();
+        float calculaArea();
+        float calculaAreaE();
+        float calculaVolumeE();
         virtual ~Circulo();
 
     private:
